@@ -5,8 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ranga Store</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <title>Aarong Shop</title>
+
+  <!-- style file added -->
+  <link rel="stylesheet" href="css/style.css" />
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
@@ -17,12 +20,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-  <header></header>
+<body class="BODY">
+  <header>
+    <h1 class="text-center">Aarong Shop!!
+
+    </h1>
+
+  </header>
   <main class="main">
     <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
+      <div class="text-center">
+        <input id="input-field" class="search-field" type="text" placeholder="Search Here" />
         <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
           autocomplete="off" id="search-btn" onclick="loadProducts()">
           Search
@@ -30,9 +38,10 @@
       </div>
     </div>
     <div class="row">
+
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-          <h1></h1>
+
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -40,42 +49,33 @@
           <table class="table">
             <thead>
               <h1>My-Cart</h1>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col"></th>
-                <th scope="col"></th>
-                <th scope="col"></th>
-              </tr>
+
             </thead>
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
-                <td></td>
-                <td></td>
+                <td><span id="total-Products">0</span></td>
+
               </tr>
               <tr>
                 <th>Price:</th>
                 <td>$ <span id="price">0</span></td>
-                <td></td>
-                <td></td>
+
               </tr>
               <tr>
                 <th>Delivery-Charge:</th>
                 <td>$ <span id="delivery-charge">20</span></td>
-                <td></td>
-                <td></td>
+
               </tr>
               <tr>
                 <th>Total-Tax:</th>
                 <td>$ <span id="total-tax">0</span></td>
-                <td></td>
-                <td></td>
+
               </tr>
               <tr>
-                <th scope="row">Total</th>
-                <td colspan="2">$ <span id="total">0</span></td>
-                <td></td>
+                <th>Total</th>
+                <td>$ <span id="total">0</span></td>
+
               </tr>
             </tbody>
           </table>
@@ -89,7 +89,7 @@
   <footer></footer>
 
   <!-- add javascript  file  -->
-  <script src="./js/app.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
