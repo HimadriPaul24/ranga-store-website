@@ -5,7 +5,7 @@ body {
 
 }
 .BODY{
-  background-color: rgb(186, 184, 204);
+  background: rgba(187, 103, 173, 0.205);
   color: darkblue;
 }
 #title{
@@ -44,21 +44,22 @@ body {
   align-items: center;
   justify-content: center;
   color:  rgb(18, 13, 53);
+  margin-left: 15px;
 }
 .single-product {
-  border: 1px solid white;
-  min-height: 450px;
-  padding: 10px;
+  
+  height: 500px;
   transition: 0.6s;
-  background-color: white;
-  margin: 15px 10px;
+  background-color: rgba(139, 201, 230, 0.788);
+  margin-bottom: 18px;
+  margin-right: 20px;
+  padding-top:30px ;
 }
 .single-product:hover {
   box-shadow: 7px 7px 7px gray;
   border-radius: 10px;
-  border: 1px solid rgb(2, 24, 71);
-  height: 100%;
-  background-color: rgb(120, 163, 160);
+  height: 500px;
+ 
 }
 
 .product-image {
@@ -67,7 +68,6 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   background-color: rgb(255, 227, 158);;
   color:darkblue;
@@ -87,7 +87,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
